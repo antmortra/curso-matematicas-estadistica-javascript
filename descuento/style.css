@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+main {
+
+    width: 100%;
+    height: 100vh;
+}
+
+.main-container-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 250px;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    place-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(2, 2, 2);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+    
+}
+
+.main-container-inputs button {
+    width: 12rem;
+    height: 2.5rem;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-container-inputs input {
+    border-radius: 4px;
+    border: 1px solid;
+    height: 2rem;
+    text-align: center;
+}
+
+.main-container-inputs #precio {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.main-container-inputs input::-webkit-inner-spin-button,
+.main-container-inputs input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
