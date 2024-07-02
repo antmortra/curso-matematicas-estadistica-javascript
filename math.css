@@ -19,6 +19,7 @@ h1 {
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr;
+    height: auto;
 }
 
 .main-container-items {
@@ -26,8 +27,8 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     margin: 2rem 2rem;
-    height: 150px;
     font-size: 1.6rem;
+    height: 200px;
 }
 
 .main-container-items input {
